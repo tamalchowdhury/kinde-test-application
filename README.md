@@ -1,6 +1,6 @@
-# Kinde Starter Kit - NextJS with full App Router support
+# Kinde Test Application for end to end testing
 
-This is a starter kit to get you started with Kinde on Next.js
+This is a test application built on top of the Kinde Next.js starter kit. Use this application to test end to end user testing features.
 
 ## Dependancies
 
