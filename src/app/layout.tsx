@@ -9,7 +9,7 @@ import { KindeProvider } from "@kinde-oss/kinde-auth-nextjs";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Kinde Auth",
+  title: "Kinde Test Application",
   description: "Kinde with NextJS App Router",
 };
 
@@ -30,10 +30,18 @@ export default async function RootLayout({
               <div>
                 {!(await isAuthenticated()) ? (
                   <>
-                    <LoginLink className="btn btn-ghost sign-in-btn">
+                    <LoginLink
+                      className="btn btn-ghost sign-in-btn"
+                      data-testid="sign-in-button"
+                    >
                       Sign in
                     </LoginLink>
-                    <RegisterLink className="btn btn-dark">Sign up</RegisterLink>
+                    <RegisterLink
+                      className="btn btn-dark"
+                      data-testid="sign-up-button"
+                    >
+                      Sign up
+                    </RegisterLink>
                   </>
                 ) : (
                   <div className="profile-blob">
@@ -51,11 +59,16 @@ export default async function RootLayout({
                       </div>
                     )}
                     <div>
-                      <p className="text-heading-2">
+                      <p className="text-heading-2" data-testid="user-profile">
                         {user?.given_name} {user?.family_name}
                       </p>
 
-                      <LogoutLink className="text-subtle">Log out</LogoutLink>
+                      <LogoutLink
+                        className="text-subtle"
+                        data-testid="sign-out-button"
+                      >
+                        Log out
+                      </LogoutLink>
                     </div>
                   </div>
                 )}
@@ -74,7 +87,7 @@ export default async function RootLayout({
               </p>
 
               <small className="text-subtle">
-                © 2023 KindeAuth, Inc. All rights reserved
+                © 2026 KindeAuth, Inc. All rights reserved
               </small>
             </div>
           </footer>
