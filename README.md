@@ -64,17 +64,16 @@ http://localhost:3000
 
 ## Start your app
 
-    ```
+1. Run the following command in your terminal:
+
+    ```bash
     npm run dev
     ```
 
-open `http://localhost:3000` in your browser
+2. Open `http://localhost:3000` in your browser.
+3. Sign up or sign in for your test user.
 
-## Create your first user
-
-Click on `Sign up` and register your first user for your business!
-
-Within the Kinde Dashboard, you will see your new user listed within the user view. 🚀
+    Within the Kinde Dashboard, you will see your new user listed within the user view.
 
 # Resources
 - [Kinde Next.js SDK Docs](https://docs.kinde.com/developer-tools/sdks/backend/nextjs-sdk/)
