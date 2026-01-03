@@ -2,6 +2,13 @@
 
 This is a test application built on top of the Kinde Next.js starter kit. Use this application to test end to end user testing features.
 
+This application contains the following `testid` attributes for use in browser testing automation tools: 
+
+- `data-testid="sign-in-button"`
+- `data-testid="sign-up-button"`
+- `data-testid="sign-out-button"`
+- `data-testid="user-profile"`
+
 ## Dependancies
 
 - node.js (>=18)
@@ -10,30 +17,31 @@ This is a test application built on top of the Kinde Next.js starter kit. Use th
 
 ## Setup your local environment
 
-1. [Fork](https://github.com/kinde-starter-kits/kinde-nextjs-app-router-starter-kit/fork)
+1. [Fork](https://github.com/tamalchowdhury/kinde-test-application.git)
 2. Clone the repository
 
-```
-git clone https://github.com/<your_github_username>/kinde-nextjs-app-router-starter-kit.git
-```
+    ```bash
+    git clone https://github.com/<your_github_username>/kinde-test-application.git
+    ```
 
 3. Within the project folder install the dependancies
 
-```
-> cd kinde-nextjs-app-router-starter-kit
-> npm i
-```
+    ```bash
+    cd kinde-test-application
+    npm install
+    ```
 
 4. Set up your environment
    
 Rename `.env.local.sample` to `.env.local`
 
 Update the file with your application settings.  These can be found within the backend application details within the Kinde dashboard
-```
-KINDE_CLIENT_ID=<your_kinde_client_id>
-KINDE_CLIENT_SECRET=<your_kinde_client_secret>
-KINDE_ISSUER_URL=https://<your_kinde_subdomain>.kinde.com
-```
+
+    ```
+    KINDE_CLIENT_ID=<your_kinde_client_id>
+    KINDE_CLIENT_SECRET=<your_kinde_client_secret>
+    KINDE_ISSUER_URL=https://<your_kinde_subdomain>.kinde.com
+    ```
 
 
 ## Setup Kinde
@@ -57,9 +65,9 @@ http://localhost:3000
 
 ## Start your app
 
-```
-npm run dev
-```
+    ```
+    npm run dev
+    ```
 
 open `http://localhost:3000` in your browser
 
