@@ -29,10 +29,8 @@ This application contains the following `testid` attributes for use in browser t
     cd kinde-test-application
     npm install
     ```
-
-4. Set up your environment
-   
-5. Rename `.env.local.sample` to `.env.local`
+       
+4. Rename `.env.local.sample` to `.env.local`
 
     Update the file with your application settings.  These can be found within the backend application details within the Kinde dashboard
 
