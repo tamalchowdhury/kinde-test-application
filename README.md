@@ -33,9 +33,9 @@ This application contains the following `testid` attributes for use in browser t
 
 4. Set up your environment
    
-Rename `.env.local.sample` to `.env.local`
+5. Rename `.env.local.sample` to `.env.local`
 
-Update the file with your application settings.  These can be found within the backend application details within the Kinde dashboard
+  Update the file with your application settings.  These can be found within the backend application details within the Kinde dashboard
 
     ```
     KINDE_CLIENT_ID=<your_kinde_client_id>
@@ -78,8 +78,8 @@ Click on `Sign up` and register your first user for your business!
 Within the Kinde Dashboard, you will see your new user listed within the user view. 🚀
 
 # Resources
-- [Kinde Next.js SDK Docs](https://kinde.com/docs/developer-tools/nextjs-sdk/)
-- [Kinde Management API Docs](https://kinde.com/api/docs/#kinde-management-api)
+- [Kinde Next.js SDK Docs](https://docs.kinde.com/developer-tools/sdks/backend/nextjs-sdk/)
+- [Kinde Management API Docs](https://docs.kinde.com/kinde-apis/management/)
 
 # Get help
 - [Discord](https://discord.gg/wHX6j7wG5d)
