@@ -9,11 +9,10 @@ This application contains the following `testid` attributes for use in browser t
 - `data-testid="sign-out-button"`
 - `data-testid="user-profile"`
 
-## Dependancies
+### What you need
 
-- node.js (>=18)
-- Kinde account - Get free account [here](https://app.kinde.com/register)
-  - Kinde back-end web application setup
+- A [Kinde](https://app.kinde.com/register) account (Sign up for free)
+- [Node.js](https://nodejs.org/en) version 20+
 
 ## Setup your local environment
 
@@ -35,7 +34,7 @@ This application contains the following `testid` attributes for use in browser t
    
 5. Rename `.env.local.sample` to `.env.local`
 
-  Update the file with your application settings.  These can be found within the backend application details within the Kinde dashboard
+    Update the file with your application settings.  These can be found within the backend application details within the Kinde dashboard
 
     ```
     KINDE_CLIENT_ID=<your_kinde_client_id>
