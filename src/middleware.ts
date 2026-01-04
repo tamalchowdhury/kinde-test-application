@@ -6,7 +6,7 @@ export default withAuth(
   async function middleware(req) {
   },
   {
-    publicPaths: ["/", "/api/public"],
+    publicPaths: ["/", "/api/public", "/api/profile", "/api/settings"],
   }
 );
 
