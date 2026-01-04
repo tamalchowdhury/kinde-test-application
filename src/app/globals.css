@@ -224,3 +224,54 @@ a {
 .next-steps-section {
   margin-top: var(--g-spacing-2x-large);
 }
+
+.profile-form {
+  margin-top: var(--g-spacing-x-large);
+  text-align: left;
+}
+
+.profile-form-group {
+  margin-bottom: var(--g-spacing-base);
+}
+
+.profile-label {
+  display: block;
+  margin-bottom: var(--g-spacing-small);
+}
+
+.profile-input {
+  background: var(--g-color-white);
+  border: 1px solid var(--g-color-grey-600);
+  border-radius: var(--g-border-radius-small);
+  color: var(--g-color-black);
+  font-family: var(--g-font-family);
+  font-size: var(--g-font-size-base);
+  padding: var(--g-spacing-base);
+  width: 100%;
+}
+
+.profile-input:focus {
+  outline: none;
+  border-color: var(--g-color-black);
+}
+
+.toast {
+  background: var(--g-color-white);
+  border-radius: var(--g-border-radius-base);
+  box-shadow: var(--g-box-shadow);
+  color: var(--g-color-black);
+  font-size: var(--g-font-size-base);
+  font-weight: var(--g-font-weight-semi-bold);
+  margin-top: var(--g-spacing-base);
+  padding: var(--g-spacing-base) var(--g-spacing-large);
+  position: fixed;
+  right: var(--g-spacing-x-large);
+  top: var(--g-spacing-x-large);
+  z-index: 1000;
+}
+
+.toast-success {
+  background: var(--g-color-white);
+  border-left: 4px solid #10b981;
+  color: var(--g-color-black);
+}
